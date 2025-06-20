@@ -1,0 +1,61 @@
+running egg_info
+creating ../../build/multi_agent/multi_agent.egg-info
+writing ../../build/multi_agent/multi_agent.egg-info/PKG-INFO
+writing dependency_links to ../../build/multi_agent/multi_agent.egg-info/dependency_links.txt
+writing entry points to ../../build/multi_agent/multi_agent.egg-info/entry_points.txt
+writing requirements to ../../build/multi_agent/multi_agent.egg-info/requires.txt
+writing top-level names to ../../build/multi_agent/multi_agent.egg-info/top_level.txt
+writing manifest file '../../build/multi_agent/multi_agent.egg-info/SOURCES.txt'
+reading manifest file '../../build/multi_agent/multi_agent.egg-info/SOURCES.txt'
+writing manifest file '../../build/multi_agent/multi_agent.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rojebay/cobak/build/multi_agent/build
+creating /home/rojebay/cobak/build/multi_agent/build/lib
+creating /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent
+copying multi_agent/data_logger.py -> /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent
+copying multi_agent/apf_navigation.py -> /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent
+copying multi_agent/leader_follower_navigation.py -> /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent
+copying multi_agent/sensor_streamer.py -> /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent
+copying multi_agent/__init__.py -> /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent
+running install
+running install_lib
+creating /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent
+copying /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent/data_logger.py -> /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent
+copying /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent/apf_navigation.py -> /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent
+copying /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent/leader_follower_navigation.py -> /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent
+copying /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent/sensor_streamer.py -> /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent
+copying /home/rojebay/cobak/build/multi_agent/build/lib/multi_agent/__init__.py -> /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent
+byte-compiling /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent/data_logger.py to data_logger.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent/apf_navigation.py to apf_navigation.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent/leader_follower_navigation.py to leader_follower_navigation.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent/sensor_streamer.py to sensor_streamer.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rojebay/cobak/install/multi_agent/share/ament_index
+creating /home/rojebay/cobak/install/multi_agent/share/ament_index/resource_index
+creating /home/rojebay/cobak/install/multi_agent/share/ament_index/resource_index/packages
+copying resource/multi_agent -> /home/rojebay/cobak/install/multi_agent/share/ament_index/resource_index/packages
+copying package.xml -> /home/rojebay/cobak/install/multi_agent/share/multi_agent
+creating /home/rojebay/cobak/install/multi_agent/share/multi_agent/launch
+copying launch/multi_agent.launch.py -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/launch
+copying launch/apf.launch.py -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/launch
+copying launch/apf_single-robot.launch.py -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/launch
+copying launch/test.launch.py -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/launch
+creating /home/rojebay/cobak/install/multi_agent/share/multi_agent/urdf
+copying urdf/skid_steer_follower_robot.urdf.xacro -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/urdf
+copying urdf/skid_steer_robot.urdf copy.xacro -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/urdf
+copying urdf/skid_steer_robot.urdf.xacro -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/urdf
+creating /home/rojebay/cobak/install/multi_agent/share/multi_agent/worlds
+copying worlds/2simple_world.world -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/worlds
+copying worlds/1simple_world.world -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/worlds
+copying worlds/empty_world.world -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/worlds
+copying worlds/3last_world.world -> /home/rojebay/cobak/install/multi_agent/share/multi_agent/worlds
+running install_egg_info
+Copying ../../build/multi_agent/multi_agent.egg-info to /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent-0.0.0-py3.10.egg-info
+running install_scripts
+Installing apf_navigation script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+Installing data_logger script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+Installing leader_follower_navigation script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+Installing sensor_streamer script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+writing list of installed files to '/home/rojebay/cobak/build/multi_agent/install.log'

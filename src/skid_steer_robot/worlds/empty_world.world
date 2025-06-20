@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="empty_world">
+    
+    <!-- Enhanced Physics for smooth movement -->
+    <physics name="default_physics" default="0" type="ode">
+      <gravity>0 0 -9.8066</gravity>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>15</iters>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>false</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0.00001</cfm>
+          <erp>0.8</erp>
+          <contact_max_correcting_vel>2000.0</contact_max_correcting_vel>
+          <contact_surface_layer>0.01</contact_surface_layer>
+        </constraints>
+      </ode>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+    </physics>
+
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Lighting -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Start Area (Blue Platform) - SEJAJAR dengan lantai -->
+    <model name="start_area">
+      <pose>-4 -4 0.0 0 0 0</pose>  <!-- Z = 0.0 agar sejajar dengan ground_plane -->
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>2.5</radius>
+              <length>0.001</length>  <!-- Sangat tipis agar tidak mengganggu -->
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Blue</name>
+            </script>
+            <ambient>0.2 0.2 1.0 0.8</ambient>  <!-- Semi-transparan -->
+            <diffuse>0.2 0.2 1.0 0.8</diffuse>
+          </material>
+        </visual>
+        <!-- No collision untuk start area agar tidak ada perbedaan ketinggian -->
+      </link>
+    </model>
+
+    <!-- Target Area (Green Platform) - SEJAJAR dengan lantai -->
+    <model name="target_area">
+      <pose>20 20 0.0 0 0 0</pose>  <!-- Z = 0.0 agar sejajar dengan ground_plane -->
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>2.0</radius>
+              <length>0.001</length>  <!-- Sangat tipis -->
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Green</name>
+            </script>
+            <ambient>0.2 1.0 0.2 0.8</ambient>  <!-- Semi-transparan -->
+            <diffuse>0.2 1.0 0.2 0.8</diffuse>
+          </material>
+        </visual>
+        <!-- No collision untuk target area -->
+      </link>
+    </model>
+
+    <!-- Optional: Add grid lines for better visual reference -->
+    <model name="grid_lines">
+      <pose>8 8 0.001 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>40 40</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+            </script>
+            <ambient>0.9 0.9 0.9 0.3</ambient>
+            <diffuse>0.9 0.9 0.9 0.3</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

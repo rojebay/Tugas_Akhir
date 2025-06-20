@@ -1,0 +1,24 @@
+[0.855s] Invoking command in '/home/rojebay/cobak/src/multi_agent': PYTHONPATH=/home/rojebay/cobak/build/multi_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_agent build --build-base /home/rojebay/cobak/build/multi_agent/build install --record /home/rojebay/cobak/build/multi_agent/install.log --single-version-externally-managed install_data
+[1.039s] running egg_info
+[1.039s] writing ../../build/multi_agent/multi_agent.egg-info/PKG-INFO
+[1.039s] writing dependency_links to ../../build/multi_agent/multi_agent.egg-info/dependency_links.txt
+[1.039s] writing entry points to ../../build/multi_agent/multi_agent.egg-info/entry_points.txt
+[1.040s] writing requirements to ../../build/multi_agent/multi_agent.egg-info/requires.txt
+[1.040s] writing top-level names to ../../build/multi_agent/multi_agent.egg-info/top_level.txt
+[1.041s] reading manifest file '../../build/multi_agent/multi_agent.egg-info/SOURCES.txt'
+[1.041s] writing manifest file '../../build/multi_agent/multi_agent.egg-info/SOURCES.txt'
+[1.042s] running build
+[1.042s] running build_py
+[1.042s] running install
+[1.042s] running install_lib
+[1.043s] running install_data
+[1.043s] running install_egg_info
+[1.045s] removing '/home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent-0.0.0-py3.10.egg-info' (and everything under it)
+[1.045s] Copying ../../build/multi_agent/multi_agent.egg-info to /home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages/multi_agent-0.0.0-py3.10.egg-info
+[1.045s] running install_scripts
+[1.062s] Installing apf_navigation script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+[1.063s] Installing data_logger script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+[1.063s] Installing leader_follower_navigation script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+[1.063s] Installing sensor_streamer script to /home/rojebay/cobak/install/multi_agent/lib/multi_agent
+[1.063s] writing list of installed files to '/home/rojebay/cobak/build/multi_agent/install.log'
+[1.081s] Invoked command in '/home/rojebay/cobak/src/multi_agent' returned '0': PYTHONPATH=/home/rojebay/cobak/build/multi_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_agent build --build-base /home/rojebay/cobak/build/multi_agent/build install --record /home/rojebay/cobak/build/multi_agent/install.log --single-version-externally-managed install_data

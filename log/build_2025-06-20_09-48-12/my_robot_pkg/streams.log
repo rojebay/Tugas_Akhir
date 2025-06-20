@@ -1,0 +1,21 @@
+[0.686s] Invoking command in '/home/rojebay/cobak/src/my_robot_pkg': PYTHONPATH=/home/rojebay/cobak/build/my_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/rojebay/cobak/build/my_robot_pkg/build install --record /home/rojebay/cobak/build/my_robot_pkg/install.log --single-version-externally-managed install_data
+[0.832s] running egg_info
+[0.832s] writing ../../build/my_robot_pkg/my_robot_pkg.egg-info/PKG-INFO
+[0.833s] writing dependency_links to ../../build/my_robot_pkg/my_robot_pkg.egg-info/dependency_links.txt
+[0.833s] writing entry points to ../../build/my_robot_pkg/my_robot_pkg.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../build/my_robot_pkg/my_robot_pkg.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/my_robot_pkg/my_robot_pkg.egg-info/top_level.txt
+[0.834s] reading manifest file '../../build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[0.834s] writing manifest file '../../build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[0.834s] running build
+[0.834s] running build_py
+[0.835s] running install
+[0.835s] running install_lib
+[0.836s] running install_data
+[0.836s] running install_egg_info
+[0.837s] removing '/home/rojebay/cobak/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[0.837s] Copying ../../build/my_robot_pkg/my_robot_pkg.egg-info to /home/rojebay/cobak/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg-0.0.1-py3.10.egg-info
+[0.837s] running install_scripts
+[0.850s] Installing robot_controller script to /home/rojebay/cobak/install/my_robot_pkg/lib/my_robot_pkg
+[0.851s] writing list of installed files to '/home/rojebay/cobak/build/my_robot_pkg/install.log'
+[0.867s] Invoked command in '/home/rojebay/cobak/src/my_robot_pkg' returned '0': PYTHONPATH=/home/rojebay/cobak/build/my_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/rojebay/cobak/build/my_robot_pkg/build install --record /home/rojebay/cobak/build/my_robot_pkg/install.log --single-version-externally-managed install_data

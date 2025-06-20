@@ -1,0 +1,65 @@
+running egg_info
+creating ../../build/skid_steer_robot/skid_steer_robot.egg-info
+writing ../../build/skid_steer_robot/skid_steer_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/skid_steer_robot/skid_steer_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/skid_steer_robot/skid_steer_robot.egg-info/entry_points.txt
+writing requirements to ../../build/skid_steer_robot/skid_steer_robot.egg-info/requires.txt
+writing top-level names to ../../build/skid_steer_robot/skid_steer_robot.egg-info/top_level.txt
+writing manifest file '../../build/skid_steer_robot/skid_steer_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/skid_steer_robot/skid_steer_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/skid_steer_robot/skid_steer_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rojebay/cobak/build/skid_steer_robot/build
+creating /home/rojebay/cobak/build/skid_steer_robot/build/lib
+creating /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot
+copying skid_steer_robot/data_logger.py -> /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot
+copying skid_steer_robot/apf_navigation.py -> /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot
+copying skid_steer_robot/sensor_streamer.py -> /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot
+copying skid_steer_robot/__init__.py -> /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot
+copying skid_steer_robot/test_apf.py -> /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot
+running install
+running install_lib
+creating /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot
+copying /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot/data_logger.py -> /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot
+copying /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot/apf_navigation.py -> /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot
+copying /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot/sensor_streamer.py -> /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot
+copying /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot/__init__.py -> /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot
+copying /home/rojebay/cobak/build/skid_steer_robot/build/lib/skid_steer_robot/test_apf.py -> /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot
+byte-compiling /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot/data_logger.py to data_logger.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot/apf_navigation.py to apf_navigation.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot/sensor_streamer.py to sensor_streamer.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot/test_apf.py to test_apf.cpython-310.pyc
+running install_data
+creating /home/rojebay/cobak/install/skid_steer_robot/share/ament_index
+creating /home/rojebay/cobak/install/skid_steer_robot/share/ament_index/resource_index
+creating /home/rojebay/cobak/install/skid_steer_robot/share/ament_index/resource_index/packages
+copying resource/skid_steer_robot -> /home/rojebay/cobak/install/skid_steer_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot
+creating /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+copying launch/gazebo.launch.py -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+copying launch/teleop.launch.py -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+copying launch/apf.launch.py -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+copying launch/simulasi.launch.py -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+copying launch/coba.launch.py -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+copying launch/robot_spawn.launch.py -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+copying launch/apf_single-robot.launch.py -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/launch
+creating /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/urdf
+copying urdf/skid_steer_follower_robot.urdf.xacro -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/urdf
+copying urdf/skid_steer_robot.urdf copy.xacro -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/urdf
+copying urdf/skid_steer_robot.urdf.xacro -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/urdf
+creating /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/worlds
+copying worlds/2simple_world.world -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/worlds
+copying worlds/1simple_world.world -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/worlds
+copying worlds/empty_world.world -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/worlds
+copying worlds/3last_world.world -> /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/worlds
+creating /home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/rviz
+running install_egg_info
+Copying ../../build/skid_steer_robot/skid_steer_robot.egg-info to /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing apf_navigation script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+Installing data_logger script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+Installing sensor_streamer script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+Installing test_apf script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+writing list of installed files to '/home/rojebay/cobak/build/skid_steer_robot/install.log'

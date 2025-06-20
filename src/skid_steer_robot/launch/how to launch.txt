@@ -1,0 +1,8 @@
+# World 1 - Simple Navigation
+ros2 launch skid_steer_robot gazebo_spawn.launch.py world:=1simple_world.world
+
+# World 2 - Maze Navigation  
+ros2 launch skid_steer_robot gazebo_spawn.launch.py world:=2simple_world.world
+
+# World 3 - Complex Terrain
+ros2 launch skid_steer_robot gazebo_spawn.launch.py world:=3last_world.world

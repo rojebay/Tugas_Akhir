@@ -1,0 +1,6 @@
+[console_scripts]
+apf_navigation = multi_agent.apf_navigation:main
+data_logger = multi_agent.data_logger:main
+leader_follower_navigation = multi_agent.leader_follower_navigation:main
+sensor_streamer = multi_agent.sensor_streamer:main
+

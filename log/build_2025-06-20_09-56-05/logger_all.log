@@ -1,0 +1,269 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cbcfb50bd30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cbcfb50b790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cbcfb50b790>>, mixin_verb=('build',))
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.175s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rojebay/cobak'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_49) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_18-20_41_56) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_agent' with type 'ros.ament_python' and name 'multi_agent'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_pkg' with type 'ros.ament_python' and name 'my_robot_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_robot) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_robot' with type 'ros.ament_python' and name 'skid_steer_robot'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/rojebay/cobak/install
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/humble
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'multi_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'multi_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rojebay/cobak/build/multi_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rojebay/cobak/install/multi_agent', 'merge_install': False, 'path': '/home/rojebay/cobak/src/multi_agent', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rojebay/cobak/build/my_robot_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rojebay/cobak/install/my_robot_pkg', 'merge_install': False, 'path': '/home/rojebay/cobak/src/my_robot_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rojebay/cobak/build/skid_steer_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rojebay/cobak/install/skid_steer_robot', 'merge_install': False, 'path': '/home/rojebay/cobak/src/skid_steer_robot', 'symlink_install': False, 'test_result_base': None}
+[0.241s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.242s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rojebay/cobak/src/multi_agent' with build type 'ament_python'
+[0.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_agent', 'ament_prefix_path')
+[0.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/multi_agent/share/multi_agent/hook/ament_prefix_path.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rojebay/cobak/install/multi_agent/share/multi_agent/hook/ament_prefix_path.dsv'
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/multi_agent/share/multi_agent/hook/ament_prefix_path.sh'
+[0.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rojebay/cobak/src/my_robot_pkg' with build type 'ament_python'
+[0.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_pkg', 'ament_prefix_path')
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/hook/ament_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/hook/ament_prefix_path.sh'
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rojebay/cobak/src/skid_steer_robot' with build type 'ament_python'
+[0.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_robot', 'ament_prefix_path')
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/hook/ament_prefix_path.ps1'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/hook/ament_prefix_path.dsv'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/hook/ament_prefix_path.sh'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rojebay/cobak/src/multi_agent'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.599s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rojebay/cobak/src/my_robot_pkg'
+[0.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.798s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rojebay/cobak/src/skid_steer_robot'
+[0.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rojebay/cobak/src/my_robot_pkg': PYTHONPATH=/home/rojebay/cobak/build/my_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/rojebay/cobak/build/my_robot_pkg/build install --record /home/rojebay/cobak/build/my_robot_pkg/install.log --single-version-externally-managed install_data
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rojebay/cobak/src/skid_steer_robot': PYTHONPATH=/home/rojebay/cobak/build/skid_steer_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skid_steer_robot build --build-base /home/rojebay/cobak/build/skid_steer_robot/build install --record /home/rojebay/cobak/build/skid_steer_robot/install.log --single-version-externally-managed install_data
+[1.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rojebay/cobak/src/multi_agent': PYTHONPATH=/home/rojebay/cobak/build/multi_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_agent build --build-base /home/rojebay/cobak/build/multi_agent/build install --record /home/rojebay/cobak/build/multi_agent/install.log --single-version-externally-managed install_data
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rojebay/cobak/src/my_robot_pkg' returned '0': PYTHONPATH=/home/rojebay/cobak/build/my_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_pkg build --build-base /home/rojebay/cobak/build/my_robot_pkg/build install --record /home/rojebay/cobak/build/my_robot_pkg/install.log --single-version-externally-managed install_data
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/my_robot_pkg' for CMake module files
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/my_robot_pkg' for CMake config files
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/my_robot_pkg/lib'
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/my_robot_pkg/bin'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/my_robot_pkg/lib/pkgconfig/my_robot_pkg.pc'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/my_robot_pkg/lib/python3.10/site-packages'
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_pkg', 'pythonpath')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/hook/pythonpath.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/hook/pythonpath.dsv'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/hook/pythonpath.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/my_robot_pkg/bin'
+[1.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_pkg)
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/package.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/package.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/package.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/my_robot_pkg/share/my_robot_pkg/package.zsh'
+[1.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rojebay/cobak/install/my_robot_pkg/share/colcon-core/packages/my_robot_pkg)
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/skid_steer_robot' for CMake module files
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/skid_steer_robot' for CMake config files
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rojebay/cobak/src/skid_steer_robot' returned '0': PYTHONPATH=/home/rojebay/cobak/build/skid_steer_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skid_steer_robot build --build-base /home/rojebay/cobak/build/skid_steer_robot/build install --record /home/rojebay/cobak/build/skid_steer_robot/install.log --single-version-externally-managed install_data
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/skid_steer_robot/lib'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/skid_steer_robot/bin'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/skid_steer_robot/lib/pkgconfig/skid_steer_robot.pc'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages'
+[1.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_robot', 'pythonpath')
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/hook/pythonpath.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/hook/pythonpath.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/hook/pythonpath.sh'
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/skid_steer_robot/bin'
+[1.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_robot)
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/package.ps1'
+[1.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/package.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/package.sh'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/package.bash'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/skid_steer_robot/share/skid_steer_robot/package.zsh'
+[1.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rojebay/cobak/install/skid_steer_robot/share/colcon-core/packages/skid_steer_robot)
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/multi_agent' for CMake module files
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rojebay/cobak/src/multi_agent' returned '0': PYTHONPATH=/home/rojebay/cobak/build/multi_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_agent build --build-base /home/rojebay/cobak/build/multi_agent/build install --record /home/rojebay/cobak/build/multi_agent/install.log --single-version-externally-managed install_data
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/multi_agent' for CMake config files
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/multi_agent/lib'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/multi_agent/bin'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/multi_agent/lib/pkgconfig/multi_agent.pc'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/multi_agent/lib/python3.10/site-packages'
+[1.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_agent', 'pythonpath')
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/multi_agent/share/multi_agent/hook/pythonpath.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rojebay/cobak/install/multi_agent/share/multi_agent/hook/pythonpath.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rojebay/cobak/install/multi_agent/share/multi_agent/hook/pythonpath.sh'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/rojebay/cobak/install/multi_agent/bin'
+[1.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_agent)
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/multi_agent/share/multi_agent/package.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rojebay/cobak/install/multi_agent/share/multi_agent/package.dsv'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/multi_agent/share/multi_agent/package.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/multi_agent/share/multi_agent/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/rojebay/cobak/install/multi_agent/share/multi_agent/package.zsh'
+[1.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rojebay/cobak/install/multi_agent/share/colcon-core/packages/multi_agent)
+[1.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.330s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.334s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.344s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rojebay/cobak/install/local_setup.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rojebay/cobak/install/_local_setup_util_ps1.py'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rojebay/cobak/install/setup.ps1'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rojebay/cobak/install/local_setup.sh'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rojebay/cobak/install/_local_setup_util_sh.py'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rojebay/cobak/install/setup.sh'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rojebay/cobak/install/local_setup.bash'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rojebay/cobak/install/setup.bash'
+[1.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rojebay/cobak/install/local_setup.zsh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rojebay/cobak/install/setup.zsh'

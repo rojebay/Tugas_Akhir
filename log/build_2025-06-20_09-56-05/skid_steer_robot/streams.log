@@ -1,0 +1,24 @@
+[0.831s] Invoking command in '/home/rojebay/cobak/src/skid_steer_robot': PYTHONPATH=/home/rojebay/cobak/build/skid_steer_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skid_steer_robot build --build-base /home/rojebay/cobak/build/skid_steer_robot/build install --record /home/rojebay/cobak/build/skid_steer_robot/install.log --single-version-externally-managed install_data
+[1.008s] running egg_info
+[1.009s] writing ../../build/skid_steer_robot/skid_steer_robot.egg-info/PKG-INFO
+[1.009s] writing dependency_links to ../../build/skid_steer_robot/skid_steer_robot.egg-info/dependency_links.txt
+[1.009s] writing entry points to ../../build/skid_steer_robot/skid_steer_robot.egg-info/entry_points.txt
+[1.009s] writing requirements to ../../build/skid_steer_robot/skid_steer_robot.egg-info/requires.txt
+[1.009s] writing top-level names to ../../build/skid_steer_robot/skid_steer_robot.egg-info/top_level.txt
+[1.011s] reading manifest file '../../build/skid_steer_robot/skid_steer_robot.egg-info/SOURCES.txt'
+[1.011s] writing manifest file '../../build/skid_steer_robot/skid_steer_robot.egg-info/SOURCES.txt'
+[1.011s] running build
+[1.012s] running build_py
+[1.012s] running install
+[1.012s] running install_lib
+[1.013s] running install_data
+[1.013s] running install_egg_info
+[1.015s] removing '/home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.015s] Copying ../../build/skid_steer_robot/skid_steer_robot.egg-info to /home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages/skid_steer_robot-0.0.0-py3.10.egg-info
+[1.016s] running install_scripts
+[1.032s] Installing apf_navigation script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+[1.032s] Installing data_logger script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+[1.032s] Installing sensor_streamer script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+[1.032s] Installing test_apf script to /home/rojebay/cobak/install/skid_steer_robot/lib/skid_steer_robot
+[1.033s] writing list of installed files to '/home/rojebay/cobak/build/skid_steer_robot/install.log'
+[1.055s] Invoked command in '/home/rojebay/cobak/src/skid_steer_robot' returned '0': PYTHONPATH=/home/rojebay/cobak/build/skid_steer_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rojebay/cobak/install/skid_steer_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skid_steer_robot build --build-base /home/rojebay/cobak/build/skid_steer_robot/build install --record /home/rojebay/cobak/build/skid_steer_robot/install.log --single-version-externally-managed install_data

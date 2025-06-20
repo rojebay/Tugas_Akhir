@@ -1,0 +1,6 @@
+[console_scripts]
+apf_navigation = skid_steer_robot.apf_navigation:main
+data_logger = skid_steer_robot.data_logger:main
+sensor_streamer = skid_steer_robot.sensor_streamer:main
+test_apf = skid_steer_robot.test_apf:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+robot_controller = my_robot_pkg.my_robot_node:main
+
